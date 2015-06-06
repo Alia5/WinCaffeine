@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>WinCaffeineClass</class>
+ <widget class="QMainWindow" name="WinCaffeineClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>203</width>
+    <height>72</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>203</width>
+    <height>72</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>203</width>
+    <height>72</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>WinCaffeine</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="wincaffeine.qrc">
+    <normaloff>:/WinCaffeine/wincaf.png</normaloff>:/WinCaffeine/wincaf.png</iconset>
+  </property>
+  <property name="toolTipDuration">
+   <number>-1</number>
+  </property>
+  <property name="locale">
+   <locale language="English" country="UnitedStates"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QCheckBox" name="SleepBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Keep system awake</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="MonitorBox">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>121</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Keep screens on</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="wincaffeine.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,8 @@
+WinCaffeine is a handy little tool that can be used to prevent Windows from going to sleep, or shutting the displays off.
+
+
+You can find pre compiled binaries in Win32/Release directory of this repository, zipped, or alternatively an zipped exe-installer
+
+This software is provided 'as-is', without any express or
+implied warranty. In no event will the authors be held
+liable for any damages arising from the use of this software.
