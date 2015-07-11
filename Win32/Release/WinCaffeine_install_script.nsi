@@ -61,6 +61,7 @@ section "install"
 	file "Qt5Gui.dll"
 	file "Qt5Widgets.dll"
 	file "vcredist_sp1_x86.exe"
+	file "QT-License.txt"
 	setOutPath $INSTDIR\platforms
 	file "platforms\qwindows.dll"
 	# Add any other files for the install directory (license files, app data, etc) here
@@ -117,6 +118,7 @@ section "uninstall"
 	delete $INSTDIR\Qt5Core.dll
 	delete $INSTDIR\Qt5Gui.dll
 	delete $INSTDIR\Qt5Widgets.dll
+	delete $INSTDIR\QT-License.txt
 	delete $INSTDIR\vcredist_sp1_x86.exe
 	delete $INSTDIR\platforms\qwindows.dll
  
